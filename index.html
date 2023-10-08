@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- Link the style.css and app.js files -->
+  <script src="app.js"></script>
+  <!-- Your head content here -->
+</head>
+<body>
+  <header>
+    <h1>Tic Tac Toe</h1>
+  </header>
+  <div class="box">
+    <div class="board">
+      <table>
+        <tr>
+          <td><button class="cell"></button></td>
+          <td><button class="cell"></button></td>
+          <td><button class="cell"></button></td>
+        </tr>
+        <tr>
+          <td><button class="cell"></button></td>
+          <td><button class="cell"></button></td>
+          <td><button class="cell"></button></td>
+        </tr>
+        <tr>
+          <td><button class="cell"></button></td>
+          <td><button class="cell"></button></td>
+          <td><button class="cell"></button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="result-container">
+    <p class="result">Player X's Turn</p>
+  </div>
+  <div class="reset-section">
+    <center><button class="reset-btn" onclick="resetGame()" disabled>Reset</button></center>
+  </div>
+  <script src="app.js"></script> <!-- Move the script tag to the end of the body -->
+</body>
+</html>
